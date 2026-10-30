@@ -1,0 +1,1643 @@
+[
+  {
+    "id": 1,
+    "slug": "2-bhk-apartment-in-whitefield-1",
+    "title": "2 BHK Apartment in Whitefield",
+    "locality": "Whitefield",
+    "city": "Bengaluru",
+    "priceLakh": 111,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1165,
+    "furnished": false,
+    "amenities": [
+      "24x7 security",
+      "Co-working lounge",
+      "Infinity pool",
+      "EV charging",
+      "Kids play area"
+    ],
+    "images": [
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp"
+    ],
+    "description": "A 1165 sq ft 2 BHK apartment in Whitefield, Bengaluru, with access to 24x7 security, co-working lounge, infinity pool at the Skyline tower.",
+    "createdAt": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "slug": "4-bhk-apartment-in-jubilee-hills-2",
+    "title": "4 BHK Apartment in Jubilee Hills",
+    "locality": "Jubilee Hills",
+    "city": "Hyderabad",
+    "priceLakh": 306,
+    "bhk": 4,
+    "type": "Apartment",
+    "areaSqFt": 2350,
+    "furnished": true,
+    "amenities": [
+      "Clubhouse",
+      "Terrace garden",
+      "Sky gym",
+      "Kids play area",
+      "Co-working lounge",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp"
+    ],
+    "description": "A 2350 sq ft 4 BHK apartment in Jubilee Hills, Hyderabad, with access to clubhouse, terrace garden, sky gym at the Skyline tower.",
+    "createdAt": "2026-10-20T00:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "slug": "1-bhk-apartment-in-jubilee-hills-3",
+    "title": "1 BHK Apartment in Jubilee Hills",
+    "locality": "Jubilee Hills",
+    "city": "Hyderabad",
+    "priceLakh": 97,
+    "bhk": 1,
+    "type": "Apartment",
+    "areaSqFt": 744,
+    "furnished": true,
+    "amenities": [
+      "Terrace garden",
+      "Infinity pool",
+      "Sky gym",
+      "Clubhouse",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp"
+    ],
+    "description": "A 744 sq ft 1 BHK apartment in Jubilee Hills, Hyderabad, with access to terrace garden, infinity pool, sky gym at the Skyline tower.",
+    "createdAt": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "slug": "4-bhk-apartment-in-sector-150-4",
+    "title": "4 BHK Apartment in Sector 150",
+    "locality": "Sector 150",
+    "city": "Noida",
+    "priceLakh": 264,
+    "bhk": 4,
+    "type": "Apartment",
+    "areaSqFt": 2935,
+    "furnished": false,
+    "amenities": [
+      "Clubhouse",
+      "Terrace garden",
+      "EV charging",
+      "Kids play area"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 2935 sq ft 4 BHK apartment in Sector 150, Noida, with access to clubhouse, terrace garden, ev charging at the Skyline tower.",
+    "createdAt": "2026-10-16T00:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "slug": "4-bhk-penthouse-in-jubilee-hills-5",
+    "title": "4 BHK Penthouse in Jubilee Hills",
+    "locality": "Jubilee Hills",
+    "city": "Hyderabad",
+    "priceLakh": 518,
+    "bhk": 4,
+    "type": "Penthouse",
+    "areaSqFt": 2654,
+    "furnished": false,
+    "amenities": [
+      "Co-working lounge",
+      "Clubhouse",
+      "Infinity pool",
+      "EV charging",
+      "Sky gym"
+    ],
+    "images": [
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp"
+    ],
+    "description": "A 2654 sq ft 4 BHK penthouse in Jubilee Hills, Hyderabad, with access to co-working lounge, clubhouse, infinity pool at the Skyline tower.",
+    "createdAt": "2026-10-14T00:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "slug": "3-bhk-apartment-in-sector-137-6",
+    "title": "3 BHK Apartment in Sector 137",
+    "locality": "Sector 137",
+    "city": "Noida",
+    "priceLakh": 131,
+    "bhk": 3,
+    "type": "Apartment",
+    "areaSqFt": 1869,
+    "furnished": true,
+    "amenities": [
+      "EV charging",
+      "Co-working lounge",
+      "Sky gym",
+      "Terrace garden",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp"
+    ],
+    "description": "A 1869 sq ft 3 BHK apartment in Sector 137, Noida, with access to ev charging, co-working lounge, sky gym at the Skyline tower.",
+    "createdAt": "2026-10-12T00:00:00.000Z"
+  },
+  {
+    "id": 7,
+    "slug": "1-bhk-villa-in-sector-137-7",
+    "title": "1 BHK Villa in Sector 137",
+    "locality": "Sector 137",
+    "city": "Noida",
+    "priceLakh": 73,
+    "bhk": 1,
+    "type": "Villa",
+    "areaSqFt": 798,
+    "furnished": false,
+    "amenities": [
+      "EV charging",
+      "Infinity pool",
+      "Sky gym",
+      "Co-working lounge",
+      "24x7 security",
+      "Kids play area"
+    ],
+    "images": [
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp"
+    ],
+    "description": "A 798 sq ft 1 BHK villa in Sector 137, Noida, with access to ev charging, infinity pool, sky gym at the Skyline tower.",
+    "createdAt": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": 8,
+    "slug": "2-bhk-apartment-in-bandra-west-8",
+    "title": "2 BHK Apartment in Bandra West",
+    "locality": "Bandra West",
+    "city": "Mumbai",
+    "priceLakh": 442,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1162,
+    "furnished": false,
+    "amenities": [
+      "24x7 security",
+      "Co-working lounge",
+      "EV charging",
+      "Clubhouse"
+    ],
+    "images": [
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp"
+    ],
+    "description": "A 1162 sq ft 2 BHK apartment in Bandra West, Mumbai, with access to 24x7 security, co-working lounge, ev charging at the Skyline tower.",
+    "createdAt": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": 9,
+    "slug": "3-bhk-apartment-in-jubilee-hills-9",
+    "title": "3 BHK Apartment in Jubilee Hills",
+    "locality": "Jubilee Hills",
+    "city": "Hyderabad",
+    "priceLakh": 193,
+    "bhk": 3,
+    "type": "Apartment",
+    "areaSqFt": 1484,
+    "furnished": true,
+    "amenities": [
+      "Terrace garden",
+      "Sky gym",
+      "Kids play area",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp"
+    ],
+    "description": "A 1484 sq ft 3 BHK apartment in Jubilee Hills, Hyderabad, with access to terrace garden, sky gym, kids play area at the Skyline tower.",
+    "createdAt": "2026-10-06T00:00:00.000Z"
+  },
+  {
+    "id": 10,
+    "slug": "1-bhk-penthouse-in-sector-137-10",
+    "title": "1 BHK Penthouse in Sector 137",
+    "locality": "Sector 137",
+    "city": "Noida",
+    "priceLakh": 80,
+    "bhk": 1,
+    "type": "Penthouse",
+    "areaSqFt": 764,
+    "furnished": false,
+    "amenities": [
+      "Kids play area",
+      "EV charging",
+      "24x7 security",
+      "Terrace garden",
+      "Sky gym",
+      "Clubhouse"
+    ],
+    "images": [
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp"
+    ],
+    "description": "A 764 sq ft 1 BHK penthouse in Sector 137, Noida, with access to kids play area, ev charging, 24x7 security at the Skyline tower.",
+    "createdAt": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": 11,
+    "slug": "2-bhk-apartment-in-powai-11",
+    "title": "2 BHK Apartment in Powai",
+    "locality": "Powai",
+    "city": "Mumbai",
+    "priceLakh": 263,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1196,
+    "furnished": false,
+    "amenities": [
+      "Infinity pool",
+      "Sky gym",
+      "EV charging",
+      "Terrace garden",
+      "Clubhouse"
+    ],
+    "images": [
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp"
+    ],
+    "description": "A 1196 sq ft 2 BHK apartment in Powai, Mumbai, with access to infinity pool, sky gym, ev charging at the Skyline tower.",
+    "createdAt": "2026-10-02T00:00:00.000Z"
+  },
+  {
+    "id": 12,
+    "slug": "4-bhk-apartment-in-sector-150-12",
+    "title": "4 BHK Apartment in Sector 150",
+    "locality": "Sector 150",
+    "city": "Noida",
+    "priceLakh": 233,
+    "bhk": 4,
+    "type": "Apartment",
+    "areaSqFt": 2593,
+    "furnished": false,
+    "amenities": [
+      "Terrace garden",
+      "Sky gym",
+      "Infinity pool",
+      "24x7 security",
+      "Co-working lounge"
+    ],
+    "images": [
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp"
+    ],
+    "description": "A 2593 sq ft 4 BHK apartment in Sector 150, Noida, with access to terrace garden, sky gym, infinity pool at the Skyline tower.",
+    "createdAt": "2026-09-30T00:00:00.000Z"
+  },
+  {
+    "id": 13,
+    "slug": "4-bhk-apartment-in-koregaon-park-13",
+    "title": "4 BHK Apartment in Koregaon Park",
+    "locality": "Koregaon Park",
+    "city": "Pune",
+    "priceLakh": 323,
+    "bhk": 4,
+    "type": "Apartment",
+    "areaSqFt": 2309,
+    "furnished": false,
+    "amenities": [
+      "Infinity pool",
+      "Co-working lounge",
+      "Clubhouse",
+      "Sky gym",
+      "Terrace garden",
+      "EV charging",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 2309 sq ft 4 BHK apartment in Koregaon Park, Pune, with access to infinity pool, co-working lounge, clubhouse at the Skyline tower.",
+    "createdAt": "2026-09-28T00:00:00.000Z"
+  },
+  {
+    "id": 14,
+    "slug": "1-bhk-villa-in-sector-150-14",
+    "title": "1 BHK Villa in Sector 150",
+    "locality": "Sector 150",
+    "city": "Noida",
+    "priceLakh": 108,
+    "bhk": 1,
+    "type": "Villa",
+    "areaSqFt": 927,
+    "furnished": false,
+    "amenities": [
+      "EV charging",
+      "Kids play area",
+      "Clubhouse",
+      "24x7 security",
+      "Terrace garden",
+      "Sky gym"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 927 sq ft 1 BHK villa in Sector 150, Noida, with access to ev charging, kids play area, clubhouse at the Skyline tower.",
+    "createdAt": "2026-09-26T00:00:00.000Z"
+  },
+  {
+    "id": 15,
+    "slug": "2-bhk-penthouse-in-whitefield-15",
+    "title": "2 BHK Penthouse in Whitefield",
+    "locality": "Whitefield",
+    "city": "Bengaluru",
+    "priceLakh": 226,
+    "bhk": 2,
+    "type": "Penthouse",
+    "areaSqFt": 1588,
+    "furnished": false,
+    "amenities": [
+      "Co-working lounge",
+      "24x7 security",
+      "EV charging",
+      "Clubhouse",
+      "Terrace garden"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 1588 sq ft 2 BHK penthouse in Whitefield, Bengaluru, with access to co-working lounge, 24x7 security, ev charging at the Skyline tower.",
+    "createdAt": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": 16,
+    "slug": "1-bhk-apartment-in-koregaon-park-16",
+    "title": "1 BHK Apartment in Koregaon Park",
+    "locality": "Koregaon Park",
+    "city": "Pune",
+    "priceLakh": 95,
+    "bhk": 1,
+    "type": "Apartment",
+    "areaSqFt": 675,
+    "furnished": false,
+    "amenities": [
+      "Terrace garden",
+      "EV charging",
+      "Infinity pool",
+      "Sky gym"
+    ],
+    "images": [
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp"
+    ],
+    "description": "A 675 sq ft 1 BHK apartment in Koregaon Park, Pune, with access to terrace garden, ev charging, infinity pool at the Skyline tower.",
+    "createdAt": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": 17,
+    "slug": "2-bhk-apartment-in-jubilee-hills-17",
+    "title": "2 BHK Apartment in Jubilee Hills",
+    "locality": "Jubilee Hills",
+    "city": "Hyderabad",
+    "priceLakh": 148,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1139,
+    "furnished": true,
+    "amenities": [
+      "EV charging",
+      "Co-working lounge",
+      "Clubhouse",
+      "Infinity pool",
+      "Kids play area",
+      "Terrace garden",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 1139 sq ft 2 BHK apartment in Jubilee Hills, Hyderabad, with access to ev charging, co-working lounge, clubhouse at the Skyline tower.",
+    "createdAt": "2026-09-20T00:00:00.000Z"
+  },
+  {
+    "id": 18,
+    "slug": "2-bhk-apartment-in-powai-18",
+    "title": "2 BHK Apartment in Powai",
+    "locality": "Powai",
+    "city": "Mumbai",
+    "priceLakh": 200,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 907,
+    "furnished": true,
+    "amenities": [
+      "24x7 security",
+      "Sky gym",
+      "Infinity pool",
+      "Clubhouse"
+    ],
+    "images": [
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp"
+    ],
+    "description": "A 907 sq ft 2 BHK apartment in Powai, Mumbai, with access to 24x7 security, sky gym, infinity pool at the Skyline tower.",
+    "createdAt": "2026-09-18T00:00:00.000Z"
+  },
+  {
+    "id": 19,
+    "slug": "3-bhk-apartment-in-golf-course-road-19",
+    "title": "3 BHK Apartment in Golf Course Road",
+    "locality": "Golf Course Road",
+    "city": "Gurugram",
+    "priceLakh": 285,
+    "bhk": 3,
+    "type": "Apartment",
+    "areaSqFt": 1783,
+    "furnished": true,
+    "amenities": [
+      "24x7 security",
+      "EV charging",
+      "Clubhouse",
+      "Kids play area"
+    ],
+    "images": [
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp"
+    ],
+    "description": "A 1783 sq ft 3 BHK apartment in Golf Course Road, Gurugram, with access to 24x7 security, ev charging, clubhouse at the Skyline tower.",
+    "createdAt": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": 20,
+    "slug": "3-bhk-penthouse-in-sector-137-20",
+    "title": "3 BHK Penthouse in Sector 137",
+    "locality": "Sector 137",
+    "city": "Noida",
+    "priceLakh": 231,
+    "bhk": 3,
+    "type": "Penthouse",
+    "areaSqFt": 2198,
+    "furnished": true,
+    "amenities": [
+      "Clubhouse",
+      "Infinity pool",
+      "Co-working lounge",
+      "EV charging",
+      "Sky gym",
+      "Kids play area"
+    ],
+    "images": [
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp"
+    ],
+    "description": "A 2198 sq ft 3 BHK penthouse in Sector 137, Noida, with access to clubhouse, infinity pool, co-working lounge at the Skyline tower.",
+    "createdAt": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": 21,
+    "slug": "4-bhk-villa-in-powai-21",
+    "title": "4 BHK Villa in Powai",
+    "locality": "Powai",
+    "city": "Mumbai",
+    "priceLakh": 982,
+    "bhk": 4,
+    "type": "Villa",
+    "areaSqFt": 3434,
+    "furnished": true,
+    "amenities": [
+      "EV charging",
+      "24x7 security",
+      "Infinity pool",
+      "Co-working lounge",
+      "Clubhouse"
+    ],
+    "images": [
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp"
+    ],
+    "description": "A 3434 sq ft 4 BHK villa in Powai, Mumbai, with access to ev charging, 24x7 security, infinity pool at the Skyline tower.",
+    "createdAt": "2026-09-12T00:00:00.000Z"
+  },
+  {
+    "id": 22,
+    "slug": "2-bhk-apartment-in-koregaon-park-22",
+    "title": "2 BHK Apartment in Koregaon Park",
+    "locality": "Koregaon Park",
+    "city": "Pune",
+    "priceLakh": 179,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1277,
+    "furnished": true,
+    "amenities": [
+      "Kids play area",
+      "Co-working lounge",
+      "EV charging",
+      "Terrace garden",
+      "Infinity pool"
+    ],
+    "images": [
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp"
+    ],
+    "description": "A 1277 sq ft 2 BHK apartment in Koregaon Park, Pune, with access to kids play area, co-working lounge, ev charging at the Skyline tower.",
+    "createdAt": "2026-09-10T00:00:00.000Z"
+  },
+  {
+    "id": 23,
+    "slug": "3-bhk-apartment-in-koregaon-park-23",
+    "title": "3 BHK Apartment in Koregaon Park",
+    "locality": "Koregaon Park",
+    "city": "Pune",
+    "priceLakh": 224,
+    "bhk": 3,
+    "type": "Apartment",
+    "areaSqFt": 1601,
+    "furnished": true,
+    "amenities": [
+      "Kids play area",
+      "Terrace garden",
+      "Co-working lounge",
+      "Sky gym",
+      "Infinity pool",
+      "Clubhouse",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp"
+    ],
+    "description": "A 1601 sq ft 3 BHK apartment in Koregaon Park, Pune, with access to kids play area, terrace garden, co-working lounge at the Skyline tower.",
+    "createdAt": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": 24,
+    "slug": "3-bhk-apartment-in-jubilee-hills-24",
+    "title": "3 BHK Apartment in Jubilee Hills",
+    "locality": "Jubilee Hills",
+    "city": "Hyderabad",
+    "priceLakh": 209,
+    "bhk": 3,
+    "type": "Apartment",
+    "areaSqFt": 1604,
+    "furnished": false,
+    "amenities": [
+      "Sky gym",
+      "Clubhouse",
+      "Infinity pool",
+      "Kids play area",
+      "EV charging",
+      "Terrace garden",
+      "Co-working lounge"
+    ],
+    "images": [
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp"
+    ],
+    "description": "A 1604 sq ft 3 BHK apartment in Jubilee Hills, Hyderabad, with access to sky gym, clubhouse, infinity pool at the Skyline tower.",
+    "createdAt": "2026-09-06T00:00:00.000Z"
+  },
+  {
+    "id": 25,
+    "slug": "3-bhk-penthouse-in-powai-25",
+    "title": "3 BHK Penthouse in Powai",
+    "locality": "Powai",
+    "city": "Mumbai",
+    "priceLakh": 580,
+    "bhk": 3,
+    "type": "Penthouse",
+    "areaSqFt": 1758,
+    "furnished": true,
+    "amenities": [
+      "24x7 security",
+      "Infinity pool",
+      "Sky gym",
+      "Co-working lounge",
+      "Clubhouse",
+      "Kids play area",
+      "EV charging"
+    ],
+    "images": [
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp"
+    ],
+    "description": "A 1758 sq ft 3 BHK penthouse in Powai, Mumbai, with access to 24x7 security, infinity pool, sky gym at the Skyline tower.",
+    "createdAt": "2026-09-04T00:00:00.000Z"
+  },
+  {
+    "id": 26,
+    "slug": "4-bhk-apartment-in-bandra-west-26",
+    "title": "4 BHK Apartment in Bandra West",
+    "locality": "Bandra West",
+    "city": "Mumbai",
+    "priceLakh": 1050,
+    "bhk": 4,
+    "type": "Apartment",
+    "areaSqFt": 2763,
+    "furnished": true,
+    "amenities": [
+      "EV charging",
+      "Clubhouse",
+      "Kids play area",
+      "Terrace garden",
+      "Sky gym",
+      "Infinity pool",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp"
+    ],
+    "description": "A 2763 sq ft 4 BHK apartment in Bandra West, Mumbai, with access to ev charging, clubhouse, kids play area at the Skyline tower.",
+    "createdAt": "2026-09-02T00:00:00.000Z"
+  },
+  {
+    "id": 27,
+    "slug": "4-bhk-apartment-in-golf-course-road-27",
+    "title": "4 BHK Apartment in Golf Course Road",
+    "locality": "Golf Course Road",
+    "city": "Gurugram",
+    "priceLakh": 414,
+    "bhk": 4,
+    "type": "Apartment",
+    "areaSqFt": 2586,
+    "furnished": true,
+    "amenities": [
+      "Clubhouse",
+      "Kids play area",
+      "Infinity pool",
+      "Sky gym",
+      "Co-working lounge",
+      "EV charging",
+      "Terrace garden"
+    ],
+    "images": [
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp"
+    ],
+    "description": "A 2586 sq ft 4 BHK apartment in Golf Course Road, Gurugram, with access to clubhouse, kids play area, infinity pool at the Skyline tower.",
+    "createdAt": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": 28,
+    "slug": "2-bhk-villa-in-whitefield-28",
+    "title": "2 BHK Villa in Whitefield",
+    "locality": "Whitefield",
+    "city": "Bengaluru",
+    "priceLakh": 184,
+    "bhk": 2,
+    "type": "Villa",
+    "areaSqFt": 1492,
+    "furnished": true,
+    "amenities": [
+      "Clubhouse",
+      "Terrace garden",
+      "EV charging",
+      "Co-working lounge",
+      "Kids play area",
+      "Sky gym",
+      "Infinity pool"
+    ],
+    "images": [
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp"
+    ],
+    "description": "A 1492 sq ft 2 BHK villa in Whitefield, Bengaluru, with access to clubhouse, terrace garden, ev charging at the Skyline tower.",
+    "createdAt": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": 29,
+    "slug": "2-bhk-apartment-in-whitefield-29",
+    "title": "2 BHK Apartment in Whitefield",
+    "locality": "Whitefield",
+    "city": "Bengaluru",
+    "priceLakh": 95,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 996,
+    "furnished": true,
+    "amenities": [
+      "Kids play area",
+      "Infinity pool",
+      "Co-working lounge",
+      "Clubhouse",
+      "EV charging",
+      "24x7 security",
+      "Sky gym"
+    ],
+    "images": [
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp"
+    ],
+    "description": "A 996 sq ft 2 BHK apartment in Whitefield, Bengaluru, with access to kids play area, infinity pool, co-working lounge at the Skyline tower.",
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": 30,
+    "slug": "1-bhk-penthouse-in-powai-30",
+    "title": "1 BHK Penthouse in Powai",
+    "locality": "Powai",
+    "city": "Mumbai",
+    "priceLakh": 309,
+    "bhk": 1,
+    "type": "Penthouse",
+    "areaSqFt": 935,
+    "furnished": true,
+    "amenities": [
+      "24x7 security",
+      "Sky gym",
+      "Terrace garden",
+      "EV charging",
+      "Infinity pool",
+      "Clubhouse"
+    ],
+    "images": [
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp"
+    ],
+    "description": "A 935 sq ft 1 BHK penthouse in Powai, Mumbai, with access to 24x7 security, sky gym, terrace garden at the Skyline tower.",
+    "createdAt": "2026-08-25T00:00:00.000Z"
+  },
+  {
+    "id": 31,
+    "slug": "3-bhk-apartment-in-koregaon-park-31",
+    "title": "3 BHK Apartment in Koregaon Park",
+    "locality": "Koregaon Park",
+    "city": "Pune",
+    "priceLakh": 260,
+    "bhk": 3,
+    "type": "Apartment",
+    "areaSqFt": 1855,
+    "furnished": false,
+    "amenities": [
+      "Infinity pool",
+      "EV charging",
+      "Kids play area",
+      "24x7 security",
+      "Sky gym"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 1855 sq ft 3 BHK apartment in Koregaon Park, Pune, with access to infinity pool, ev charging, kids play area at the Skyline tower.",
+    "createdAt": "2026-08-23T00:00:00.000Z"
+  },
+  {
+    "id": 32,
+    "slug": "4-bhk-apartment-in-golf-course-road-32",
+    "title": "4 BHK Apartment in Golf Course Road",
+    "locality": "Golf Course Road",
+    "city": "Gurugram",
+    "priceLakh": 458,
+    "bhk": 4,
+    "type": "Apartment",
+    "areaSqFt": 2862,
+    "furnished": true,
+    "amenities": [
+      "Kids play area",
+      "Terrace garden",
+      "Sky gym",
+      "Co-working lounge",
+      "24x7 security",
+      "Clubhouse"
+    ],
+    "images": [
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp"
+    ],
+    "description": "A 2862 sq ft 4 BHK apartment in Golf Course Road, Gurugram, with access to kids play area, terrace garden, sky gym at the Skyline tower.",
+    "createdAt": "2026-08-21T00:00:00.000Z"
+  },
+  {
+    "id": 33,
+    "slug": "2-bhk-apartment-in-whitefield-33",
+    "title": "2 BHK Apartment in Whitefield",
+    "locality": "Whitefield",
+    "city": "Bengaluru",
+    "priceLakh": 100,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1055,
+    "furnished": false,
+    "amenities": [
+      "Terrace garden",
+      "Clubhouse",
+      "Sky gym",
+      "24x7 security",
+      "Co-working lounge",
+      "Kids play area",
+      "EV charging"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 1055 sq ft 2 BHK apartment in Whitefield, Bengaluru, with access to terrace garden, clubhouse, sky gym at the Skyline tower.",
+    "createdAt": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": 34,
+    "slug": "2-bhk-apartment-in-sector-137-34",
+    "title": "2 BHK Apartment in Sector 137",
+    "locality": "Sector 137",
+    "city": "Noida",
+    "priceLakh": 86,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1223,
+    "furnished": true,
+    "amenities": [
+      "Clubhouse",
+      "Infinity pool",
+      "24x7 security",
+      "Terrace garden"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 1223 sq ft 2 BHK apartment in Sector 137, Noida, with access to clubhouse, infinity pool, 24x7 security at the Skyline tower.",
+    "createdAt": "2026-08-17T00:00:00.000Z"
+  },
+  {
+    "id": 35,
+    "slug": "4-bhk-penthouse-in-sector-137-35",
+    "title": "4 BHK Penthouse in Sector 137",
+    "locality": "Sector 137",
+    "city": "Noida",
+    "priceLakh": 278,
+    "bhk": 4,
+    "type": "Penthouse",
+    "areaSqFt": 2650,
+    "furnished": false,
+    "amenities": [
+      "Kids play area",
+      "Terrace garden",
+      "Clubhouse",
+      "Sky gym"
+    ],
+    "images": [
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp"
+    ],
+    "description": "A 2650 sq ft 4 BHK penthouse in Sector 137, Noida, with access to kids play area, terrace garden, clubhouse at the Skyline tower.",
+    "createdAt": "2026-08-15T00:00:00.000Z"
+  },
+  {
+    "id": 36,
+    "slug": "2-bhk-apartment-in-jubilee-hills-36",
+    "title": "2 BHK Apartment in Jubilee Hills",
+    "locality": "Jubilee Hills",
+    "city": "Hyderabad",
+    "priceLakh": 146,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1126,
+    "furnished": false,
+    "amenities": [
+      "Sky gym",
+      "Clubhouse",
+      "24x7 security",
+      "Infinity pool",
+      "EV charging",
+      "Terrace garden",
+      "Co-working lounge"
+    ],
+    "images": [
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp"
+    ],
+    "description": "A 1126 sq ft 2 BHK apartment in Jubilee Hills, Hyderabad, with access to sky gym, clubhouse, 24x7 security at the Skyline tower.",
+    "createdAt": "2026-08-13T00:00:00.000Z"
+  },
+  {
+    "id": 37,
+    "slug": "1-bhk-apartment-in-powai-37",
+    "title": "1 BHK Apartment in Powai",
+    "locality": "Powai",
+    "city": "Mumbai",
+    "priceLakh": 131,
+    "bhk": 1,
+    "type": "Apartment",
+    "areaSqFt": 595,
+    "furnished": true,
+    "amenities": [
+      "Kids play area",
+      "24x7 security",
+      "Co-working lounge",
+      "Infinity pool"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 595 sq ft 1 BHK apartment in Powai, Mumbai, with access to kids play area, 24x7 security, co-working lounge at the Skyline tower.",
+    "createdAt": "2026-08-11T00:00:00.000Z"
+  },
+  {
+    "id": 38,
+    "slug": "2-bhk-apartment-in-bandra-west-38",
+    "title": "2 BHK Apartment in Bandra West",
+    "locality": "Bandra West",
+    "city": "Mumbai",
+    "priceLakh": 418,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1101,
+    "furnished": true,
+    "amenities": [
+      "EV charging",
+      "Clubhouse",
+      "Terrace garden",
+      "Sky gym"
+    ],
+    "images": [
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp"
+    ],
+    "description": "A 1101 sq ft 2 BHK apartment in Bandra West, Mumbai, with access to ev charging, clubhouse, terrace garden at the Skyline tower.",
+    "createdAt": "2026-08-09T00:00:00.000Z"
+  },
+  {
+    "id": 39,
+    "slug": "3-bhk-apartment-in-sector-150-39",
+    "title": "3 BHK Apartment in Sector 150",
+    "locality": "Sector 150",
+    "city": "Noida",
+    "priceLakh": 144,
+    "bhk": 3,
+    "type": "Apartment",
+    "areaSqFt": 1596,
+    "furnished": true,
+    "amenities": [
+      "Infinity pool",
+      "Co-working lounge",
+      "EV charging",
+      "Clubhouse",
+      "Sky gym",
+      "24x7 security",
+      "Kids play area"
+    ],
+    "images": [
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp"
+    ],
+    "description": "A 1596 sq ft 3 BHK apartment in Sector 150, Noida, with access to infinity pool, co-working lounge, ev charging at the Skyline tower.",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": 40,
+    "slug": "4-bhk-penthouse-in-koregaon-park-40",
+    "title": "4 BHK Penthouse in Koregaon Park",
+    "locality": "Koregaon Park",
+    "city": "Pune",
+    "priceLakh": 713,
+    "bhk": 4,
+    "type": "Penthouse",
+    "areaSqFt": 3393,
+    "furnished": true,
+    "amenities": [
+      "Clubhouse",
+      "Terrace garden",
+      "24x7 security",
+      "Sky gym",
+      "Infinity pool",
+      "EV charging"
+    ],
+    "images": [
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp"
+    ],
+    "description": "A 3393 sq ft 4 BHK penthouse in Koregaon Park, Pune, with access to clubhouse, terrace garden, 24x7 security at the Skyline tower.",
+    "createdAt": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "id": 41,
+    "slug": "3-bhk-apartment-in-sector-137-41",
+    "title": "3 BHK Apartment in Sector 137",
+    "locality": "Sector 137",
+    "city": "Noida",
+    "priceLakh": 102,
+    "bhk": 3,
+    "type": "Apartment",
+    "areaSqFt": 1455,
+    "furnished": false,
+    "amenities": [
+      "Sky gym",
+      "Co-working lounge",
+      "Infinity pool",
+      "24x7 security",
+      "EV charging"
+    ],
+    "images": [
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp"
+    ],
+    "description": "A 1455 sq ft 3 BHK apartment in Sector 137, Noida, with access to sky gym, co-working lounge, infinity pool at the Skyline tower.",
+    "createdAt": "2026-08-03T00:00:00.000Z"
+  },
+  {
+    "id": 42,
+    "slug": "4-bhk-villa-in-sector-150-42",
+    "title": "4 BHK Villa in Sector 150",
+    "locality": "Sector 150",
+    "city": "Noida",
+    "priceLakh": 388,
+    "bhk": 4,
+    "type": "Villa",
+    "areaSqFt": 3318,
+    "furnished": false,
+    "amenities": [
+      "Infinity pool",
+      "Sky gym",
+      "24x7 security",
+      "Terrace garden",
+      "Clubhouse",
+      "Co-working lounge",
+      "EV charging"
+    ],
+    "images": [
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp"
+    ],
+    "description": "A 3318 sq ft 4 BHK villa in Sector 150, Noida, with access to infinity pool, sky gym, 24x7 security at the Skyline tower.",
+    "createdAt": "2026-08-01T00:00:00.000Z"
+  },
+  {
+    "id": 43,
+    "slug": "2-bhk-apartment-in-sector-150-43",
+    "title": "2 BHK Apartment in Sector 150",
+    "locality": "Sector 150",
+    "city": "Noida",
+    "priceLakh": 100,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1109,
+    "furnished": true,
+    "amenities": [
+      "Terrace garden",
+      "Clubhouse",
+      "Co-working lounge",
+      "EV charging",
+      "24x7 security",
+      "Sky gym",
+      "Infinity pool"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 1109 sq ft 2 BHK apartment in Sector 150, Noida, with access to terrace garden, clubhouse, co-working lounge at the Skyline tower.",
+    "createdAt": "2026-07-30T00:00:00.000Z"
+  },
+  {
+    "id": 44,
+    "slug": "2-bhk-apartment-in-golf-course-road-44",
+    "title": "2 BHK Apartment in Golf Course Road",
+    "locality": "Golf Course Road",
+    "city": "Gurugram",
+    "priceLakh": 146,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 915,
+    "furnished": true,
+    "amenities": [
+      "Terrace garden",
+      "Clubhouse",
+      "Infinity pool",
+      "EV charging",
+      "Sky gym"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 915 sq ft 2 BHK apartment in Golf Course Road, Gurugram, with access to terrace garden, clubhouse, infinity pool at the Skyline tower.",
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": 45,
+    "slug": "1-bhk-penthouse-in-jubilee-hills-45",
+    "title": "1 BHK Penthouse in Jubilee Hills",
+    "locality": "Jubilee Hills",
+    "city": "Hyderabad",
+    "priceLakh": 135,
+    "bhk": 1,
+    "type": "Penthouse",
+    "areaSqFt": 693,
+    "furnished": false,
+    "amenities": [
+      "Clubhouse",
+      "24x7 security",
+      "Sky gym",
+      "EV charging"
+    ],
+    "images": [
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp"
+    ],
+    "description": "A 693 sq ft 1 BHK penthouse in Jubilee Hills, Hyderabad, with access to clubhouse, 24x7 security, sky gym at the Skyline tower.",
+    "createdAt": "2026-07-26T00:00:00.000Z"
+  },
+  {
+    "id": 46,
+    "slug": "2-bhk-apartment-in-jubilee-hills-46",
+    "title": "2 BHK Apartment in Jubilee Hills",
+    "locality": "Jubilee Hills",
+    "city": "Hyderabad",
+    "priceLakh": 164,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1261,
+    "furnished": true,
+    "amenities": [
+      "Co-working lounge",
+      "Infinity pool",
+      "Sky gym",
+      "Clubhouse"
+    ],
+    "images": [
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp"
+    ],
+    "description": "A 1261 sq ft 2 BHK apartment in Jubilee Hills, Hyderabad, with access to co-working lounge, infinity pool, sky gym at the Skyline tower.",
+    "createdAt": "2026-07-24T00:00:00.000Z"
+  },
+  {
+    "id": 47,
+    "slug": "4-bhk-apartment-in-sector-150-47",
+    "title": "4 BHK Apartment in Sector 150",
+    "locality": "Sector 150",
+    "city": "Noida",
+    "priceLakh": 257,
+    "bhk": 4,
+    "type": "Apartment",
+    "areaSqFt": 2852,
+    "furnished": false,
+    "amenities": [
+      "Co-working lounge",
+      "Infinity pool",
+      "Terrace garden",
+      "Kids play area"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 2852 sq ft 4 BHK apartment in Sector 150, Noida, with access to co-working lounge, infinity pool, terrace garden at the Skyline tower.",
+    "createdAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": 48,
+    "slug": "1-bhk-apartment-in-sector-137-48",
+    "title": "1 BHK Apartment in Sector 137",
+    "locality": "Sector 137",
+    "city": "Noida",
+    "priceLakh": 45,
+    "bhk": 1,
+    "type": "Apartment",
+    "areaSqFt": 644,
+    "furnished": true,
+    "amenities": [
+      "Sky gym",
+      "Co-working lounge",
+      "24x7 security",
+      "Clubhouse",
+      "Infinity pool",
+      "Kids play area"
+    ],
+    "images": [
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp"
+    ],
+    "description": "A 644 sq ft 1 BHK apartment in Sector 137, Noida, with access to sky gym, co-working lounge, 24x7 security at the Skyline tower.",
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": 49,
+    "slug": "4-bhk-villa-in-jubilee-hills-49",
+    "title": "4 BHK Villa in Jubilee Hills",
+    "locality": "Jubilee Hills",
+    "city": "Hyderabad",
+    "priceLakh": 629,
+    "bhk": 4,
+    "type": "Villa",
+    "areaSqFt": 3724,
+    "furnished": true,
+    "amenities": [
+      "24x7 security",
+      "EV charging",
+      "Clubhouse",
+      "Terrace garden",
+      "Kids play area"
+    ],
+    "images": [
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp"
+    ],
+    "description": "A 3724 sq ft 4 BHK villa in Jubilee Hills, Hyderabad, with access to 24x7 security, ev charging, clubhouse at the Skyline tower.",
+    "createdAt": "2026-07-18T00:00:00.000Z"
+  },
+  {
+    "id": 50,
+    "slug": "4-bhk-penthouse-in-jubilee-hills-50",
+    "title": "4 BHK Penthouse in Jubilee Hills",
+    "locality": "Jubilee Hills",
+    "city": "Hyderabad",
+    "priceLakh": 655,
+    "bhk": 4,
+    "type": "Penthouse",
+    "areaSqFt": 3361,
+    "furnished": true,
+    "amenities": [
+      "Kids play area",
+      "Co-working lounge",
+      "24x7 security",
+      "EV charging",
+      "Clubhouse"
+    ],
+    "images": [
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp"
+    ],
+    "description": "A 3361 sq ft 4 BHK penthouse in Jubilee Hills, Hyderabad, with access to kids play area, co-working lounge, 24x7 security at the Skyline tower.",
+    "createdAt": "2026-07-16T00:00:00.000Z"
+  },
+  {
+    "id": 51,
+    "slug": "4-bhk-apartment-in-bandra-west-51",
+    "title": "4 BHK Apartment in Bandra West",
+    "locality": "Bandra West",
+    "city": "Mumbai",
+    "priceLakh": 956,
+    "bhk": 4,
+    "type": "Apartment",
+    "areaSqFt": 2517,
+    "furnished": false,
+    "amenities": [
+      "EV charging",
+      "Co-working lounge",
+      "Kids play area",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp"
+    ],
+    "description": "A 2517 sq ft 4 BHK apartment in Bandra West, Mumbai, with access to ev charging, co-working lounge, kids play area at the Skyline tower.",
+    "createdAt": "2026-07-14T00:00:00.000Z"
+  },
+  {
+    "id": 52,
+    "slug": "4-bhk-apartment-in-powai-52",
+    "title": "4 BHK Apartment in Powai",
+    "locality": "Powai",
+    "city": "Mumbai",
+    "priceLakh": 551,
+    "bhk": 4,
+    "type": "Apartment",
+    "areaSqFt": 2503,
+    "furnished": true,
+    "amenities": [
+      "Infinity pool",
+      "Terrace garden",
+      "Co-working lounge",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp"
+    ],
+    "description": "A 2503 sq ft 4 BHK apartment in Powai, Mumbai, with access to infinity pool, terrace garden, co-working lounge at the Skyline tower.",
+    "createdAt": "2026-07-12T00:00:00.000Z"
+  },
+  {
+    "id": 53,
+    "slug": "1-bhk-apartment-in-powai-53",
+    "title": "1 BHK Apartment in Powai",
+    "locality": "Powai",
+    "city": "Mumbai",
+    "priceLakh": 123,
+    "bhk": 1,
+    "type": "Apartment",
+    "areaSqFt": 560,
+    "furnished": false,
+    "amenities": [
+      "Infinity pool",
+      "Terrace garden",
+      "Co-working lounge",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp"
+    ],
+    "description": "A 560 sq ft 1 BHK apartment in Powai, Mumbai, with access to infinity pool, terrace garden, co-working lounge at the Skyline tower.",
+    "createdAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "id": 54,
+    "slug": "2-bhk-apartment-in-powai-54",
+    "title": "2 BHK Apartment in Powai",
+    "locality": "Powai",
+    "city": "Mumbai",
+    "priceLakh": 275,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1249,
+    "furnished": true,
+    "amenities": [
+      "EV charging",
+      "Infinity pool",
+      "Kids play area",
+      "24x7 security"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 1249 sq ft 2 BHK apartment in Powai, Mumbai, with access to ev charging, infinity pool, kids play area at the Skyline tower.",
+    "createdAt": "2026-07-08T00:00:00.000Z"
+  },
+  {
+    "id": 55,
+    "slug": "4-bhk-penthouse-in-sector-137-55",
+    "title": "4 BHK Penthouse in Sector 137",
+    "locality": "Sector 137",
+    "city": "Noida",
+    "priceLakh": 343,
+    "bhk": 4,
+    "type": "Penthouse",
+    "areaSqFt": 3264,
+    "furnished": true,
+    "amenities": [
+      "Infinity pool",
+      "24x7 security",
+      "Co-working lounge",
+      "EV charging"
+    ],
+    "images": [
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp"
+    ],
+    "description": "A 3264 sq ft 4 BHK penthouse in Sector 137, Noida, with access to infinity pool, 24x7 security, co-working lounge at the Skyline tower.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": 56,
+    "slug": "2-bhk-villa-in-sector-150-56",
+    "title": "2 BHK Villa in Sector 150",
+    "locality": "Sector 150",
+    "city": "Noida",
+    "priceLakh": 151,
+    "bhk": 2,
+    "type": "Villa",
+    "areaSqFt": 1287,
+    "furnished": true,
+    "amenities": [
+      "Co-working lounge",
+      "Infinity pool",
+      "Kids play area",
+      "Sky gym",
+      "EV charging",
+      "Terrace garden",
+      "Clubhouse"
+    ],
+    "images": [
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp",
+      "/images/homes/home-7.webp",
+      "/images/homes/home-8.webp"
+    ],
+    "description": "A 1287 sq ft 2 BHK villa in Sector 150, Noida, with access to co-working lounge, infinity pool, kids play area at the Skyline tower.",
+    "createdAt": "2026-07-04T00:00:00.000Z"
+  },
+  {
+    "id": 57,
+    "slug": "2-bhk-apartment-in-sector-137-57",
+    "title": "2 BHK Apartment in Sector 137",
+    "locality": "Sector 137",
+    "city": "Noida",
+    "priceLakh": 75,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1072,
+    "furnished": true,
+    "amenities": [
+      "Infinity pool",
+      "Clubhouse",
+      "Sky gym",
+      "Kids play area",
+      "Terrace garden",
+      "Co-working lounge"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 1072 sq ft 2 BHK apartment in Sector 137, Noida, with access to infinity pool, clubhouse, sky gym at the Skyline tower.",
+    "createdAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": 58,
+    "slug": "2-bhk-apartment-in-koregaon-park-58",
+    "title": "2 BHK Apartment in Koregaon Park",
+    "locality": "Koregaon Park",
+    "city": "Pune",
+    "priceLakh": 161,
+    "bhk": 2,
+    "type": "Apartment",
+    "areaSqFt": 1151,
+    "furnished": false,
+    "amenities": [
+      "Infinity pool",
+      "Sky gym",
+      "Co-working lounge",
+      "Kids play area"
+    ],
+    "images": [
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp"
+    ],
+    "description": "A 1151 sq ft 2 BHK apartment in Koregaon Park, Pune, with access to infinity pool, sky gym, co-working lounge at the Skyline tower.",
+    "createdAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "id": 59,
+    "slug": "3-bhk-apartment-in-sector-137-59",
+    "title": "3 BHK Apartment in Sector 137",
+    "locality": "Sector 137",
+    "city": "Noida",
+    "priceLakh": 114,
+    "bhk": 3,
+    "type": "Apartment",
+    "areaSqFt": 1630,
+    "furnished": false,
+    "amenities": [
+      "Sky gym",
+      "Infinity pool",
+      "Kids play area",
+      "Clubhouse",
+      "Terrace garden",
+      "EV charging"
+    ],
+    "images": [
+      "/images/homes/home-8.webp",
+      "/images/homes/home-1.webp",
+      "/images/homes/home-2.webp",
+      "/images/homes/home-3.webp"
+    ],
+    "description": "A 1630 sq ft 3 BHK apartment in Sector 137, Noida, with access to sky gym, infinity pool, kids play area at the Skyline tower.",
+    "createdAt": "2026-06-28T00:00:00.000Z"
+  },
+  {
+    "id": 60,
+    "slug": "3-bhk-penthouse-in-golf-course-road-60",
+    "title": "3 BHK Penthouse in Golf Course Road",
+    "locality": "Golf Course Road",
+    "city": "Gurugram",
+    "priceLakh": 455,
+    "bhk": 3,
+    "type": "Penthouse",
+    "areaSqFt": 1896,
+    "furnished": false,
+    "amenities": [
+      "EV charging",
+      "Kids play area",
+      "Infinity pool",
+      "Terrace garden"
+    ],
+    "images": [
+      "/images/homes/home-3.webp",
+      "/images/homes/home-4.webp",
+      "/images/homes/home-5.webp",
+      "/images/homes/home-6.webp"
+    ],
+    "description": "A 1896 sq ft 3 BHK penthouse in Golf Course Road, Gurugram, with access to ev charging, kids play area, infinity pool at the Skyline tower.",
+    "createdAt": "2026-06-26T00:00:00.000Z"
+  }
+]
