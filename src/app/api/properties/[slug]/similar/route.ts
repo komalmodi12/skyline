@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { getPropertyBySlug, getSimilarProperties } from "@/lib/properties";
+import { CACHE_NONE, CACHE_READ } from "@/lib/cache";
 
 export async function GET(
   _request: Request,
@@ -9,8 +10,14 @@ export async function GET(
   const property = getPropertyBySlug(slug);
 
   if (!property) {
-    return NextResponse.json({ error: "Property not found" }, { status: 404 });
+    return NextResponse.json(
+      { error: "Property not found" },
+      { status: 404, headers: { "Cache-Control": CACHE_NONE } }
+    );
   }
 
-  return NextResponse.json({ items: getSimilarProperties(property) });
+  return NextResponse.json(
+    { items: getSimilarProperties(property) },
+    { headers: { "Cache-Control": CACHE_READ } }
+  );
 }

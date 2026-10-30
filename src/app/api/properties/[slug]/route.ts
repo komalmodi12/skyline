@@ -1,16 +1,22 @@
-import { NextRequest, NextResponse } from "next/server";
-import { parsePropertyQuery } from "@/lib/property-query";
-import { listProperties } from "@/lib/properties";
+import { NextResponse } from "next/server";
+import { getPropertyBySlug } from "@/lib/properties";
+import { CACHE_NONE, CACHE_READ } from "@/lib/cache";
 
-export function GET(request: NextRequest) {
-  const parsed = parsePropertyQuery(request.nextUrl.searchParams);
+export async function GET(
+  _request: Request,
+  { params }: { params: Promise<{ slug: string }> }
+) {
+  const { slug } = await params;
+  const property = getPropertyBySlug(slug);
 
-  if (!parsed.ok) {
+  if (!property) {
     return NextResponse.json(
-      { error: "Invalid query parameters", details: parsed.errors },
-      { status: 400 }
+      { error: "Property not found" },
+      { status: 404, headers: { "Cache-Control": CACHE_NONE } }
     );
   }
 
-  return NextResponse.json(listProperties(parsed.query));
+  return NextResponse.json(property, {
+    headers: { "Cache-Control": CACHE_READ },
+  });
 }
