@@ -44,3 +44,31 @@ export function listProperties(query: PropertyQuery): PropertyListResult {
     hasMore: start + items.length < filtered.length,
   };
 }
+
+export function getPropertyBySlug(slug: string): Property | undefined {
+  return ALL_PROPERTIES.find((p) => p.slug === slug);
+}
+
+// Similar = same locality ya same BHK (assignment ka rule).
+// Dono match karne wali sabse upar, phir sirf locality, phir sirf BHK.
+// Barabari par jiska price kareeb ho, wo pehle. Isse order hamesha wahi rehta hai.
+export function getSimilarProperties(
+  property: Property,
+  limit = 4
+): Property[] {
+  return ALL_PROPERTIES.filter(
+    (p) =>
+      p.id !== property.id &&
+      (p.locality === property.locality || p.bhk === property.bhk)
+  )
+    .map((p) => ({
+      p,
+      score:
+        (p.locality === property.locality ? 2 : 0) +
+        (p.bhk === property.bhk ? 1 : 0),
+      priceGap: Math.abs(p.priceLakh - property.priceLakh),
+    }))
+    .sort((a, b) => b.score - a.score || a.priceGap - b.priceGap || a.p.id - b.p.id)
+    .slice(0, limit)
+    .map((x) => x.p);
+}
