@@ -72,3 +72,6 @@ export function getSimilarProperties(
     .slice(0, limit)
     .map((x) => x.p);
 }
+export function getAllSlugs(): string[] {
+  return ALL_PROPERTIES.map((p) => p.slug);
+}
