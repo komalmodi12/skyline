@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import EmptyState from "@/components/EmptyState";
 import Filters from "@/components/Filters";
 import ListingsShell from "@/components/ListingsShell";
 import ListingsSkeleton from "@/components/ListingsSkeleton";
@@ -28,6 +29,8 @@ async function ListingsContent({
   searchParams: SearchParams;
 }) {
   const raw = await searchParams;
+    
+
 
   const params = new URLSearchParams();
   for (const [key, value] of Object.entries(raw)) {
@@ -74,13 +77,17 @@ async function ListingsContent({
           <p aria-live="polite" className="mb-4 text-sm text-muted">
             {result.total} {result.total === 1 ? "home" : "homes"}
           </p>
-          <ul className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
-            {result.items.map((property, i) => (
-              <li key={property.id}>
-                <PropertyCard property={property} priority={i < 3} />
-              </li>
-            ))}
-          </ul>
+          {result.total === 0 ? (
+            <EmptyState />
+          ) : (
+            <ul className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+              {result.items.map((property, i) => (
+                <li key={property.id}>
+                  <PropertyCard property={property} priority={i < 3} />
+                </li>
+              ))}
+            </ul>
+          )}
         </ListingsShell>
       </div>
     </>
