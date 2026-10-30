@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getPropertyBySlug } from "@/lib/properties";
+import { getPropertyBySlug, getSimilarProperties } from "@/lib/properties";
 
 export async function GET(
   _request: Request,
@@ -12,5 +12,5 @@ export async function GET(
     return NextResponse.json({ error: "Property not found" }, { status: 404 });
   }
 
-  return NextResponse.json(property);
+  return NextResponse.json({ items: getSimilarProperties(property) });
 }
