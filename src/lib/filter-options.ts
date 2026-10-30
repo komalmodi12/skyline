@@ -24,9 +24,9 @@ export function priceLabel(lakh: number) {
   return lakh >= 100 ? `₹${lakh / 100} Cr` : `₹${lakh} L`;
 }
 
-// Filters se URL ka query string banata hai. Page jaan-boojhkar nahi hai:
-// filter badalne par page hamesha 1 par wapas jaata hai.
-export function toQueryString(s: FilterState) {
+// Filters se URL ka query string banata hai.
+// Filter badalne par page nahi jodte (1 par wapas). Pagination links page dete hain.
+export function toQueryString(s: FilterState, page = 1) {
   const p = new URLSearchParams();
   const q = s.q.trim();
   if (q) p.set("q", q);
@@ -36,6 +36,7 @@ export function toQueryString(s: FilterState) {
   if (s.type) p.set("type", s.type);
   if (s.furnished !== undefined) p.set("furnished", String(s.furnished));
   if (s.sort !== "newest") p.set("sort", s.sort);
+  if (page > 1) p.set("page", String(page));
   const qs = p.toString();
   return qs ? `?${qs}` : "";
 }

@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Suspense } from "react";
 import EmptyState from "@/components/EmptyState";
 import Filters from "@/components/Filters";
 import ListingsShell from "@/components/ListingsShell";
 import ListingsSkeleton from "@/components/ListingsSkeleton";
+import Pagination from "@/components/Pagination";
 import PropertyCard from "@/components/PropertyCard";
-import type { FilterState } from "@/lib/filter-options";
+import ScrollMemory from "@/components/ScrollMemory";
+import { toQueryString, type FilterState } from "@/lib/filter-options";
 import { listProperties } from "@/lib/properties";
 import {
   PropertyQuerySchema,
@@ -14,10 +17,20 @@ import {
 } from "@/lib/property-query";
 import { PROPERTY_TYPES } from "@/types/property";
 
+const DESCRIPTION =
+  "Browse apartments, penthouses and villas at Skyline. Filter by price, BHK, type and furnishing.";
+
 export const metadata: Metadata = {
   title: "Homes",
-  description:
-    "Browse apartments, penthouses and villas at Skyline. Filter by price, BHK, type and furnishing.",
+  description: DESCRIPTION,
+  // Filter aur page wale saare URLs ek hi asli page ki taraf point karte hain
+  alternates: { canonical: "/properties" },
+  openGraph: {
+    title: "Homes | Skyline",
+    description: DESCRIPTION,
+    url: "/properties",
+    type: "website",
+  },
 };
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
@@ -29,8 +42,6 @@ async function ListingsContent({
   searchParams: SearchParams;
 }) {
   const raw = await searchParams;
-    
-
 
   const params = new URLSearchParams();
   for (const [key, value] of Object.entries(raw)) {
@@ -52,6 +63,11 @@ async function ListingsContent({
     furnished: query.furnished,
     sort: query.sort,
   };
+
+  const totalPages = Math.max(1, Math.ceil(result.total / query.limit));
+  const outOfRange = result.total > 0 && result.items.length === 0;
+  const start = (result.page - 1) * query.limit + 1;
+  const end = start + result.items.length - 1;
 
   return (
     <>
@@ -75,18 +91,43 @@ async function ListingsContent({
           }
         >
           <p aria-live="polite" className="mb-4 text-sm text-muted">
-            {result.total} {result.total === 1 ? "home" : "homes"}
+            {result.items.length > 0
+              ? `Showing ${start}–${end} of ${result.total} homes`
+              : `${result.total} ${result.total === 1 ? "home" : "homes"}`}
           </p>
+
           {result.total === 0 ? (
             <EmptyState />
+          ) : outOfRange ? (
+            <div className="rounded-2xl border border-dashed border-line bg-card px-6 py-16 text-center">
+              <h2 className="font-serif text-2xl">This page does not exist</h2>
+              <p className="mx-auto mt-2 max-w-sm text-sm text-muted">
+                These filters have only {totalPages}{" "}
+                {totalPages === 1 ? "page" : "pages"} of results.
+              </p>
+              <Link
+                href={`/properties${toQueryString(state)}`}
+                scroll={false}
+                className="mt-6 inline-flex min-h-11 items-center rounded-full bg-gold px-6 text-sm font-semibold text-navy transition hover:-translate-y-0.5"
+              >
+                Go to first page
+              </Link>
+            </div>
           ) : (
-            <ul className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
-              {result.items.map((property, i) => (
-                <li key={property.id}>
-                  <PropertyCard property={property} priority={i < 3} />
-                </li>
-              ))}
-            </ul>
+            <ScrollMemory>
+              <ul className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+                {result.items.map((property, i) => (
+                  <li key={property.id}>
+                    <PropertyCard property={property} priority={i < 3} />
+                  </li>
+                ))}
+              </ul>
+              <Pagination
+                state={state}
+                page={result.page}
+                totalPages={totalPages}
+              />
+            </ScrollMemory>
           )}
         </ListingsShell>
       </div>
