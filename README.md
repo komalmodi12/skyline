@@ -1,37 +1,36 @@
 # Skyline
 
-A showcase site for a fictional luxury residential tower: a scroll-driven 3D landing page, a property listings page, a property detail page and an enquiry form, backed by a small API.
+Skyline is a showcase website for a fictional luxury residential tower. It will have a 3D landing page, a page listing homes, a page for each home, and an enquiry form. A small API provides the data.
 
-- **Live site:** https://skyline-dun-six.vercel.app
-- **Repository:** `https://github.com/komalmodi12/skyline`
+- Live site: https://skyline-dun-six.vercel.app
+- Code: `https://github.com/komalmodi12/skyline`
 
-## Project status
+## What is done and what is not
 
-This README describes what exists today. Sections marked **TODO** are filled in as each part is built.
+Done:
+- Project setup and deployment
+- 60 sample homes and a shared data type
+- The API for homes and enquiries
+- Caching for the API
 
-| Area | Status |
-| --- | --- |
-| Project setup, deploy | Done |
-| Shared types, seed data (60 properties) | Done |
-| API: list, detail, similar, enquiries | Done |
-| Cache headers | Done |
-| Listings page `/properties` | TODO |
-| Detail page `/properties/[slug]` and enquiry form UI | TODO |
-| Landing page with procedural 3D | TODO |
-| Performance measurements and reports | TODO |
-| `AI_USAGE.md`, screen recording | TODO |
+Still to do (marked TODO below):
+- The listings page and the detail page
+- The enquiry form on the page
+- The 3D landing page
+- Performance reports
+- Credits and the AI usage file
 
-## Tech stack
+## Built with
 
-- Next.js (App Router) with TypeScript
+- Next.js (App Router) and TypeScript
 - Tailwind CSS
-- Zod for validation and shared types
-- Three.js for the landing page (procedural, no downloaded models) **TODO**
-- Deployed on Vercel
+- Zod, for checking data
+- Three.js for the 3D landing page (TODO)
+- Vercel for hosting
 
-## Run locally
+## Run it on your computer
 
-Requires Node 20 or newer.
+You need Node 20 or newer.
 
 ```bash
 git clone <your-github-repo-url>
@@ -40,138 +39,88 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000. The seeded data is committed, so no extra setup is needed. To regenerate it, run `npm run seed`.
+Then open http://localhost:3000. The sample data is already in the project, so nothing else is needed. To create the data again, run `npm run seed`.
 
-Copy `.env.example` to `.env.local` only if you use features that need secrets. No real secrets are committed.
+## How the data works
 
-## Folder structure
+There is one Zod schema for a home, in `src/types/property.ts`. The TypeScript type is made from that schema, so the two always match.
 
-```
-scripts/
-  seed.ts                 Generates src/data/properties.json
-src/
-  app/
-    api/
-      properties/
-        route.ts          GET list with filters, sort, pagination
-        [slug]/route.ts   GET one property (404 if unknown)
-        [slug]/similar/   GET up to 4 similar properties
-      enquiries/route.ts  POST enquiry
-  data/properties.json    60 seeded properties
-  lib/
-    property-query.ts     Query-string schema (shared rules)
-    properties.ts         Filter, sort, paginate, lookup (server only)
-    enquiry.ts            Enquiry schema (shared rules)
-    enquiry-store.ts      Saves enquiries
-    rate-limit.ts         In-memory rate limiter
-    cache.ts              Cache-Control values
-  types/property.ts       Zod PropertySchema and the Property type
-```
+The seed script (`npm run seed`) makes 60 sample homes in 8 localities across 6 Indian cities. Prices are in lakh rupees (100 lakh is 1 crore). The script uses a fixed random seed, so it gives the same data every time.
 
-## Data and shared types
+Only server code should import `src/lib/properties.ts`. If a browser component imported it, all the data would be sent to the browser.
 
-`src/types/property.ts` holds a single Zod `PropertySchema`. The TypeScript `Property` type is inferred from it with `z.infer`, so the schema and the type cannot drift apart. The seed script validates every property against this schema before writing the JSON, and the server validates the JSON again when it loads.
+## The API
 
-`npm run seed` generates 60 properties across 8 localities in 6 Indian cities (Noida, Gurugram, Bengaluru, Mumbai, Pune, Hyderabad). Prices are stored in ₹ lakh (100 lakh = 1 crore) and derived from area and a per-locality rate. A seeded random generator is used, so every run produces identical data.
+**GET /api/properties** returns a list of homes. You can use these options in the URL:
+- `q` to search the title and locality
+- `minPrice` and `maxPrice` in lakh
+- `bhk` from 1 to 4
+- `type` as Apartment, Penthouse or Villa
+- `furnished` as true or false
+- `sort` as newest, price_asc or price_desc
+- `page` and `limit` (up to 24 per page, 12 by default)
 
-`src/lib/properties.ts` must only be imported on the server. Importing it in a client component would ship the full JSON to the browser.
+The answer looks like `{ items, total, page, hasMore }`. A wrong option returns status 400 with a message that explains what is wrong.
 
-## API
+**GET /api/properties/:slug** returns one home. If the slug does not exist it returns 404.
 
-### `GET /api/properties`
+**GET /api/properties/:slug/similar** returns up to 4 homes with the same locality or the same BHK. It never includes the home itself.
 
-| Param | Rule |
-| --- | --- |
-| `q` | Searches title and locality, max 100 characters |
-| `minPrice`, `maxPrice` | In ₹ lakh. `minPrice` must not exceed `maxPrice` |
-| `bhk` | 1 to 4 |
-| `type` | `Apartment`, `Penthouse` or `Villa` |
-| `furnished` | `true` or `false` |
-| `sort` | `newest` (default), `price_asc`, `price_desc` |
-| `page` | 1 or more, default 1 |
-| `limit` | 1 to 24, default 12 |
+**POST /api/enquiries** saves an enquiry. It needs:
+- `name` (2 to 80 characters)
+- `phone` (a 10-digit Indian mobile number)
+- `email` (optional)
+- `message` (at least 10 characters)
+- `visitDate` (today or a later date)
 
-Returns `{ items, total, page, hasMore }`. Invalid params return `400` with `{ error, details }`. A page past the last one returns `200` with empty `items`. Sorting uses the property id as a tie-breaker, so pagination order is stable.
+It answers with:
+- 201 when saved
+- 400 when something is invalid, with a message for each field
+- 429 when one IP sends more than 5 enquiries in 10 minutes
 
-### `GET /api/properties/:slug`
-
-Returns one property, or `404` with `{ error }`.
-
-### `GET /api/properties/:slug/similar`
-
-Returns `{ items }` with up to 4 properties that share the locality or the BHK. Same locality ranks above same BHK, a match on both ranks first, and ties are broken by closest price. The property itself is never included. Unknown slug returns `404`.
-
-### `POST /api/enquiries`
-
-Body (JSON):
-
-| Field | Rule |
-| --- | --- |
-| `name` | 2 to 80 characters |
-| `phone` | 10-digit Indian mobile number (`^[6-9]\d{9}$`) |
-| `email` | Optional, valid email |
-| `message` | 10 to 1000 characters |
-| `visitDate` | `YYYY-MM-DD`, a real date, today or later (India time) |
-| `propertySlug` | Optional |
-| `website` | Honeypot. Must stay empty |
-
-Responses:
-
-- `201` with `{ ok: true, id }` when saved
-- `400` with `{ error, fieldErrors }` for validation failures, or `{ error }` for a malformed JSON body
-- `429` with a `Retry-After` header after 5 accepted enquiries from one IP in 10 minutes
-- `500` if saving fails
-
-A filled honeypot field returns `201` but nothing is saved, so a bot gets no signal that it was caught. Only accepted enquiries count towards the rate limit, so a user fixing typos is not locked out.
-
-The same `EnquirySchema` will be imported by the form, so client and server use identical rules.
+There is also a hidden field called `website`. Real users leave it empty. If a bot fills it, the API pretends it worked but saves nothing.
 
 ## Caching
 
-The data only changes when the site is redeployed, so read endpoints are safe to cache for a long time.
+The home data only changes when the site is deployed, so the API can be cached for a long time. These endpoints send:
 
-Read endpoints send:
+`Cache-Control: public, max-age=60, s-maxage=3600, stale-while-revalidate=86400`
 
-```
-Cache-Control: public, max-age=60, s-maxage=3600, stale-while-revalidate=86400
-```
+In simple words:
+- The browser keeps the answer for 1 minute.
+- The CDN keeps it for 1 hour.
+- After that, the CDN can show the old answer for a while and refresh it in the background.
 
-- `max-age=60`: the browser reuses a response for 1 minute.
-- `s-maxage=3600`: the CDN caches for 1 hour.
-- `stale-while-revalidate=86400`: the CDN may serve a stale copy while it refreshes in the background.
+Error answers and the enquiry endpoint use `no-store`, so mistakes and personal data are never cached.
 
-Errors (`400`, `404`) and the enquiry endpoint send `Cache-Control: no-store`, so a mistake or personal data is never cached.
+On Vercel, the browser only sees `public, max-age=60`. Vercel uses the other two settings itself and removes them before sending the answer. The cache still works, and repeat requests show `x-vercel-cache: HIT`.
 
-On Vercel, the CDN consumes `s-maxage` and `stale-while-revalidate`, so the browser only sees `public, max-age=60`. The edge cache is still active: repeat requests return `x-vercel-cache: HIT`. Each distinct query string is cached separately.
-
-If the data later moves to a database, these values should be shortened or the cache revalidated by tag.
-
-**TODO:** how listing and detail pages are cached or revalidated (added when the pages are built).
+TODO: how the listing and detail pages are cached.
 
 ## 3D landing page
 
-**TODO:** how the 3D scene is loaded and why, the scroll scenes, fallbacks for reduced motion and missing WebGL, and the performance choices.
+TODO: how the 3D scene loads, what each scroll scene does, and what shows when 3D is not available.
 
 ## Performance
 
-**TODO:** measured results from the deployed site (Lighthouse mobile for `/`, `/properties` and one detail page, bundle analyzer). Reports will be in `/reports`.
+TODO: results from the deployed site. The reports will be saved in the `reports` folder.
 
 ## Known issues
 
-- **Enquiry storage is not durable on Vercel.** Enquiries are written to `data/enquiries.json` locally. On Vercel the file system is not persistent, so writes go to `/tmp` and can be lost between invocations. Storage sits behind one `saveEnquiry()` function, so it can be swapped for a hosted database without touching the route.
-- **The rate limit is in memory.** On serverless hosting each instance keeps its own counter, so the limit is approximate in production.
-- Property images are placeholders until real, optimised images are added. **TODO**
+- Enquiries are saved to a file on your computer. On Vercel the file system is not permanent, so saved enquiries can be lost. The saving code is in one function, so it is easy to replace with a database.
+- The rate limit is kept in memory. On Vercel each server instance has its own count, so the limit is only approximate.
+- Home photos are placeholders for now (TODO).
 
-## What I would do with another day
+## With one more day
 
-- Store enquiries in a hosted database (for example Neon Postgres).
-- Move the rate limit to a shared store (for example Upstash Redis).
-- Add unit tests for the query schema and the API validation, plus one Playwright end-to-end test.
+- Save enquiries in a real database such as Neon Postgres.
+- Keep the rate limit in a shared store such as Upstash Redis.
+- Add tests for the filters and the API checks, and one Playwright test.
 
 ## Credits
 
-**TODO:** list every image, font and asset with its source and licence.
+TODO: list every image, font and asset with its source and licence.
 
 ## AI usage
 
-See `AI_USAGE.md` **TODO**.
+TODO: see `AI_USAGE.md`.
