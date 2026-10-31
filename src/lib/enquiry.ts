@@ -1,10 +1,5 @@
 import { z } from "zod";
-
-// Dono taraf (form aur server) ke liye ek hi date rule: India ki aaj ki date
-export const todayInIST = () =>
-  new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(
-    new Date()
-  ); // "2026-10-30" format
+import { todayInIST } from "./date";
 
 const isRealDate = (s: string) => {
   const d = new Date(`${s}T00:00:00Z`);

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Gallery from "@/components/Gallery";
+import EnquiryForm from "@/components/EnquiryForm";
 import PropertyCard from "@/components/PropertyCard";
 import { formatArea, formatPrice } from "@/lib/format";
 import {
@@ -181,12 +182,7 @@ export default async function PropertyPage({ params }: Props) {
           id="enquire"
           className="scroll-mt-24 lg:sticky lg:top-24 lg:self-start"
         >
-          <div className="rounded-2xl border border-line bg-card p-6">
-            <h2 className="font-serif text-2xl">Book a visit</h2>
-            <p className="mt-2 text-sm text-muted">
-              The enquiry form is added in the next step.
-            </p>
-          </div>
+          <EnquiryForm propertySlug={property.slug} />
         </aside>
       </div>
 
