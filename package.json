@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "seed": "tsx scripts/seed.ts",
-    "images": "tsx scripts/make-placeholders.ts"
+    "images": "tsx scripts/make-placeholders.ts",
+    "posters": "tsx scripts/make-posters.ts"
   },
   "dependencies": {
     "next": "16.4.3",
